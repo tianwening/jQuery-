@@ -5,6 +5,14 @@
     <title>02-测试jQuery中方法的窗口</title>
 </head>
 <body>
-
+<span>你好吗1</span>
+<span>你好吗2</span>
+<span>你好吗3</span>
+<script src="js/jquery-2.2.0.js"></script>
+<script>
+console.log($("span").map(function(val,index){
+            val += "你在干嘛";
+        }));
+</script>
 </body>
 </html>
